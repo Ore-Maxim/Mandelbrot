@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WindowsFormsApp2.Start" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAIAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Start.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Mandelbrot" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WindowsFormsApp2.DrawPx" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>models\DrawPx.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WindowsFormsApp2.Complex" Collapsed="true">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAQAAAAAAAAAAAAAAgAQAABAAAAAA=</HashCode>
+      <FileName>models\Complex.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WindowsFormsApp2.Julia" Collapsed="true">
+    <Position X="7.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQQAAAGQEiIAkhAABEKAAzjCBAMAIQAEgCBAC4RBAAA=</HashCode>
+      <FileName>Julia.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Mandelbrot" />
+      <Property Name="DrawPx" />
+      <Property Name="Complex" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WindowsFormsApp2.Mandelbrot" Collapsed="true">
+    <Position X="4.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQQEACWQMjIAkhkAhAKgaTgCAAMgIQBEiDYACQRAAJA=</HashCode>
+      <FileName>Mandelbrot.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Julia" />
+      <Property Name="DrawPx" />
+      <Property Name="Complex" />
+      <Property Name="оПрограмме" />
+      <Property Name="translation" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WindowsFormsApp2.translation" Collapsed="true">
+    <Position X="3.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAEAAQAACAAABAAAACAAgACAAEIAAAAACAAAAAAAAA=</HashCode>
+      <FileName>translation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Mandelbrot" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WindowsFormsApp2.оПрограмме" Collapsed="true">
+    <Position X="5.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QSAAAhQAACAAABAAAACAAgACAIEEAAAAAAAAAABAAAA=</HashCode>
+      <FileName>оПрограмме.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Mandelbrot" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="WindowsFormsApp2.IDraw" Collapsed="true">
+    <Position X="10.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>controllers\IDraw.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WindowsFormsApp2.IComplex" Collapsed="true">
+    <Position X="8.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>controllers\IComplex.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
